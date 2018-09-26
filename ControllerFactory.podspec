@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ControllerFactory'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This framework generates a debug view, which allows the instantiation of any view controller in the app.'
 
 # This description is used to generate tags and improve search results.
