@@ -62,6 +62,7 @@ All your view controllers can now be displayed on screen, with just two taps ðŸ‘
 
 For the moment, `ControllerFactory` cannot:
 
+* deal with controllers that are using Swift's Generics, as they cannot be marked `@objc`;
 * deal with controllers that are instantiated from a UIStoryboard, without writing some code (see [below](#custom-initializer));
 * fetch controllers from multiple bundles at the same time.
 
